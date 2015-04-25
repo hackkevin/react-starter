@@ -39,10 +39,11 @@
       <file leaf-file-name="example.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/scripts/example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8504273">
-              <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.7866667">
+              <caret line="84" column="3" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
               <folding>
-                <marker date="1430001077000" expanded="true" signature="938:1149" placeholder="&lt;xml/&gt;" />
+                <marker date="1430001236000" expanded="true" signature="938:1149" placeholder="&lt;xml/&gt;" />
+                <marker date="1430001236000" expanded="true" signature="1340:1435" placeholder="&lt;xml/&gt;" />
               </folding>
             </state>
           </provider>
@@ -361,7 +362,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430000457628</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tutorial 17">
+      <created>1430001114807</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1430001114807</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -409,6 +416,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Add comment" />
     <MESSAGE value="tutorial 12" />
     <MESSAGE value="tutorial 13" />
@@ -416,7 +425,8 @@
     <MESSAGE value=" again" />
     <MESSAGE value="http://facebook.github.io/react/docs/tutorial.html tutorial 14" />
     <MESSAGE value="tutorial 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorial 16" />
+    <MESSAGE value="tutorial 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorial 17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -513,10 +523,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8504273">
-          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.7866667">
+          <caret line="84" column="3" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
           <folding>
-            <marker date="1430001077000" expanded="true" signature="938:1149" placeholder="&lt;xml/&gt;" />
+            <marker date="1430001236000" expanded="true" signature="938:1149" placeholder="&lt;xml/&gt;" />
+            <marker date="1430001236000" expanded="true" signature="1340:1435" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
