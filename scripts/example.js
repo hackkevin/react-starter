@@ -4,19 +4,27 @@
 var CommentBox = React.createClass({displayName: 'CommentBox',
     render: function() {
         return (
-            React.createElement('div', {className: "commentBox"},
-                "Hello, world! I am a CommentBox."
-            )
+            <div className="commentBox">
+                <h1>Comments</h1>
+                <CommentList data={this.props.data} />
+                <CommentForm />
+            </div>
         );
     }
 });
 
 var CommentList = React.createClass({
     render: function() {
+        var commentNodes = this.props.data.map(function (comment) {
+            return (
+                <Comment author={comment.author}>
+                    {comment.text}
+                </Comment>
+            );
+        });
         return (
             <div className="commentList">
-                <Comment author="Pete Hunt">This is one comment</Comment>
-                <Comment author="Jordan Walke">This is *another* comment</Comment>
+                {commentNodes}
             </div>
         );
     }
@@ -34,17 +42,25 @@ var CommentForm = React.createClass({
 
 var Comment = React.createClass({
     render: function() {
+        var rawMarkup = marked(this.props.children.toString(), {sanitize: true});
         return (
             <div className="comment">
                 <h2 className="commentAuthor">
                     {this.props.author}
                 </h2>
-                {marked(this.props.children.toString())}
+                <span dangerouslySetInnerHTML={{__html: rawMarkup}} />
             </div>
         );
     }
 });
+
+
+var data = [
+    {author: "Pete Hunt", text: "This is one comment"},
+    {author: "Jordan Walke", text: "This is *another* comment"}
+];
+
 React.render(
-    React.createElement(CommentList, null),
+    <CommentBox url= "comments.json" />,
     document.getElementById('content')
 );
