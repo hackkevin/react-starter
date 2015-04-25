@@ -39,11 +39,11 @@
       <file leaf-file-name="example.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/scripts/example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63555557">
-              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state vertical-scroll-proportion="-3.08">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
-                <marker date="1430001387000" expanded="true" signature="1277:1488" placeholder="&lt;xml/&gt;" />
-                <marker date="1430001387000" expanded="true" signature="1679:1774" placeholder="&lt;xml/&gt;" />
+                <marker date="1430001565000" expanded="true" signature="1415:1626" placeholder="&lt;xml/&gt;" />
+                <marker date="1430001565000" expanded="true" signature="1817:1912" placeholder="&lt;xml/&gt;" />
               </folding>
             </state>
           </provider>
@@ -374,7 +374,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430001248656</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tutorial 19">
+      <created>1430001402884</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1430001402885</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -433,7 +439,8 @@
     <MESSAGE value="tutorial 16" />
     <MESSAGE value="tutorial 17" />
     <MESSAGE value="tutorial 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorial 18" />
+    <MESSAGE value="tutorial 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorial 19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -530,11 +537,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63555557">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state vertical-scroll-proportion="-3.08">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
-            <marker date="1430001387000" expanded="true" signature="1277:1488" placeholder="&lt;xml/&gt;" />
-            <marker date="1430001387000" expanded="true" signature="1679:1774" placeholder="&lt;xml/&gt;" />
+            <marker date="1430001565000" expanded="true" signature="1415:1626" placeholder="&lt;xml/&gt;" />
+            <marker date="1430001565000" expanded="true" signature="1817:1912" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
